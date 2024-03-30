@@ -1,5 +1,6 @@
-package com.samoylov.yandex.practice.algorithms5;
+package com.samoylov.yandex.practice.algorithms5.prac1;
 
+import com.samoylov.yandex.practice.algorithms5.prac1.Task1;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

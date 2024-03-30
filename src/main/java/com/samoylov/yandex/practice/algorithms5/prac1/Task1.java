@@ -1,4 +1,4 @@
-package com.samoylov.yandex.practice.algorithms5;
+package com.samoylov.yandex.practice.algorithms5.prac1;
 
 import java.util.HashMap;
 import java.util.Scanner;
