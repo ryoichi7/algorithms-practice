@@ -1,7 +1,7 @@
 package com.samoylov.leetcode.hard;
 
 /**
- * <a href="https://leetcode.com/problems/trapping-rain-water/description/">...</a>
+ * <a href="https://leetcode.com/problems/trapping-rain-water/description/">task link</a>
  */
 public class TrappingWater {
     public int trap(int[] height) {
