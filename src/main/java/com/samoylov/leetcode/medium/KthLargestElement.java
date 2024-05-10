@@ -1,5 +1,8 @@
 package com.samoylov.leetcode.medium;
 
+/**
+ * <a href="https://leetcode.com/problems/kth-largest-element-in-an-array/description/">task link</a>
+ */
 public class KthLargestElement {
     public int findKthLargest(int[] nums, int k) {
         var occurrences = new int[2 * 10000 + 1];
