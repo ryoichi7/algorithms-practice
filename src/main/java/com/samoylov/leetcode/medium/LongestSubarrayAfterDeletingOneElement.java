@@ -1,10 +1,10 @@
 package com.samoylov.leetcode.medium;
 
 /**
- * <a href="https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/">...</a>
+ * <a href="https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/">task link</a>
  */
 public class LongestSubarrayAfterDeletingOneElement {
-    public static int longestSubarray(int[] nums) {
+    public int longestSubarray(int[] nums) {
         var maxLength = 0;
         var curZeros = 0;
         var totalZeros = 0;
@@ -32,10 +32,5 @@ public class LongestSubarrayAfterDeletingOneElement {
             maxLength = Math.max(maxLength, right - left);
         }
         return maxLength - 1;
-    }
-
-    public static void main(String[] args) {
-        var nums = new int[]{1,1,0,0,1,1,1,0,1};
-        System.out.println(longestSubarray(nums));
     }
 }
