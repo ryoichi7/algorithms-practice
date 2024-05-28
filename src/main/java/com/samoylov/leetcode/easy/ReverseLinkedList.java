@@ -36,13 +36,13 @@ public class ReverseLinkedList {
         if (head == null) {
             return null;
         }
+        ListNode prev = null;
         var cur = head;
-        var prev = new ListNode(head.val, null);
-        while (cur.next != null) {
-            cur = cur.next;
-            var next = new ListNode(cur.val, cur.next);
-            next.next = prev;
-            prev = next;
+        while (cur != null) {
+            var next = cur.next;
+            cur.next = prev;
+            prev = cur;
+            cur = next;
         }
         return prev;
     }
