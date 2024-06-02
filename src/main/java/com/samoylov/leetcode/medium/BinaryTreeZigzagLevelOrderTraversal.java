@@ -41,13 +41,13 @@ public class BinaryTreeZigzagLevelOrderTraversal {
         }
     }
 
-    public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
-        List<List<Integer>> result = new LinkedList<List<Integer>>();
+    public List<LinkedList<Integer>> zigzagLevelOrder(TreeNode root) {
+        List<LinkedList<Integer>> result = new LinkedList<>();
         zigzag(root, result, 0);
         return result;
     }
 
-    public void zigzag(TreeNode node, List<List<Integer>> result, int lvl) {
+    public void zigzag(TreeNode node, List<LinkedList<Integer>> result, int lvl) {
         if (node == null) {
             return;
         }
